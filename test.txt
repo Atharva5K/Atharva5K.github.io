@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>As an experienced software developer with a strong focus on backend development, I have honed my skills over the past one and a half years, particularly in designing and implementing scalable solutions using Java Spring Boot. My passion for building efficient and reliable systems has driven my continuous learning in the field. Currently, I am looking to advance my career by pursuing a master’s degree in computer science, where I aim to deepen my understanding of core concepts and explore emerging technologies to further contribute to innovative projects.
+
+                Outside of my professional pursuits, I am an avid reader and enjoy staying active through cycling and running. I also have a keen interest in motorsports, especially Formula 1, and enjoy following cricket in my spare time. These hobbies keep me balanced and inspire me to bring the same energy and focus to my work in software development.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is the about section. You can add more content about yourself here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact section. Feel free to reach out!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Simple Website</p>
+        <div class="footer-links">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="30" height="30">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
